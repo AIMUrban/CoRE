@@ -32,7 +32,7 @@ def compute_mrr(true_labels, machine_preds):
     return mrr
 
 def MAPE(labels, predicts, mask):
-    loss = np.abs(predicts-labels-1) / (np.abs(labels)+1)
+    loss = np.abs(predicts-labels) / (np.abs(labels)+1)
     loss *= mask
     non_zero_len = mask.sum()
     return np.sum(loss)/non_zero_len
