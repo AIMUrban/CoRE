@@ -14,3 +14,12 @@ These are the source codes for the **CoRE** model and its corresponding data.
 - Region Embeddings
 
   save_emb/ — These are the aligned embeddings of urban regions.  Running the eval.py can evaluate the alignment performance using the embeddings of different cities.
+
+- Citation
+```bibtex
+@inproceedings{chencross,
+  title={Cross-City Latent Space Alignment for Consistency Region Embedding},
+  author={Chen, Meng and Jia, Hongwei and Li, Zechen and Jia, Wenzhen and Zhao, Kai and Dai, Hongjun and Huang, Weiming},
+  booktitle={Forty-second International Conference on Machine Learning},
+  year={2025}
+}
